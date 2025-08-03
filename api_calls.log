@@ -1,0 +1,80 @@
+2025-08-03 22:41:44,915 - INFO - 
+    API Call: Cache Creation
+    - Input Tokens: 76,570
+    - Output Tokens: 0
+    - PDFs: 1
+    - Cache Tokens: 76,570
+    - Cache Hours: 0.16666666666666666
+    - Cost: $0.2954
+    - Running Total: $0.2954
+    
+2025-08-03 22:42:02,208 - INFO - 
+    API Call: Question Answering
+    - Input Tokens: 4
+    - Output Tokens: 583
+    - PDFs: 0
+    - Cache Tokens: 0
+    - Cache Hours: 0
+    - Cost: $0.0009
+    - Running Total: $0.2963
+    
+2025-08-03 22:45:19,160 - INFO - 
+    API Call: Cache Creation
+    - Input Tokens: 76,570
+    - Output Tokens: 0
+    - PDFs: 1
+    - Cache Tokens: 76,570
+    - Cache Hours: 0.16666666666666666
+    - Cost: $0.2954
+    - Running Total: $0.2954
+    
+2025-08-03 22:45:34,447 - INFO - 
+    API Call: Question Answering
+    - Input Tokens: 0
+    - Output Tokens: 8
+    - PDFs: 0
+    - Cache Tokens: 0
+    - Cache Hours: 0
+    - Cost: $0.0000
+    - Running Total: $0.2954
+    
+2025-08-03 22:45:54,308 - INFO - 
+    API Call: Question Answering
+    - Input Tokens: 17
+    - Output Tokens: 399
+    - PDFs: 0
+    - Cache Tokens: 0
+    - Cache Hours: 0
+    - Cost: $0.0006
+    - Running Total: $0.2960
+    
+2025-08-03 22:50:50,622 - INFO - 
+    API Call: Cache Creation
+    - Input Tokens: 76,570
+    - Output Tokens: 0
+    - PDFs: 1
+    - Cache Tokens: 76,570
+    - Cache Hours: 0.16666666666666666
+    - Cost: $0.2954
+    - Running Total: $0.2954
+    
+2025-08-03 22:51:04,522 - INFO - 
+    API Call: Question Answering
+    - Input Tokens: 92
+    - Output Tokens: 188
+    - PDFs: 0
+    - Cache Tokens: 0
+    - Cache Hours: 0
+    - Cost: $0.0003
+    - Running Total: $0.2957
+    
+2025-08-03 22:51:48,556 - INFO - 
+    API Call: Question Answering
+    - Input Tokens: 293
+    - Output Tokens: 924
+    - PDFs: 0
+    - Cache Tokens: 0
+    - Cache Hours: 0
+    - Cost: $0.0015
+    - Running Total: $0.2972
+    
