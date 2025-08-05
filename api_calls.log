@@ -1,80 +1,197 @@
-2025-08-03 22:41:44,915 - INFO - 
+
+    
+2025-08-03 23:01:04,953 - INFO - 
     API Call: Cache Creation
-    - Input Tokens: 76,570
+    - Input Tokens: 5,547,841
     - Output Tokens: 0
     - PDFs: 1
-    - Cache Tokens: 76,570
+    - Cache Tokens: 5,547,841
     - Cache Hours: 0.16666666666666666
-    - Cost: $0.2954
-    - Running Total: $0.2954
+    - Cost: $2.3471
+    - Running Total: $2.3471
     
-2025-08-03 22:42:02,208 - INFO - 
+2025-08-03 23:02:20,119 - INFO - 
     API Call: Question Answering
-    - Input Tokens: 4
-    - Output Tokens: 583
+    - Input Tokens: 100
+    - Output Tokens: 111
     - PDFs: 0
     - Cache Tokens: 0
     - Cache Hours: 0
-    - Cost: $0.0009
-    - Running Total: $0.2963
+    - Cost: $0.0002
+    - Running Total: $2.3473
     
-2025-08-03 22:45:19,160 - INFO - 
+2025-08-03 23:03:15,681 - INFO - 
+    API Call: Question Answering
+    - Input Tokens: 225
+    - Output Tokens: 472
+    - PDFs: 0
+    - Cache Tokens: 0
+    - Cache Hours: 0
+    - Cost: $0.0008
+    - Running Total: $2.3481
+
+2025-08-05 15:14:03,843 - INFO - 
     API Call: Cache Creation
-    - Input Tokens: 76,570
+    - Input Tokens: 5,547,841
     - Output Tokens: 0
     - PDFs: 1
-    - Cache Tokens: 76,570
+    - Cache Tokens: 5,547,841
     - Cache Hours: 0.16666666666666666
-    - Cost: $0.2954
-    - Running Total: $0.2954
+    - Cost: $1.1034
+    - Running Total: $1.1034
     
-2025-08-03 22:45:34,447 - INFO - 
+2025-08-05 15:14:57,621 - INFO - 
     API Call: Question Answering
-    - Input Tokens: 0
-    - Output Tokens: 8
+    - Input Tokens: 100
+    - Output Tokens: 687
     - PDFs: 0
     - Cache Tokens: 0
     - Cache Hours: 0
-    - Cost: $0.0000
-    - Running Total: $0.2954
+    - Cost: $0.0004
+    - Running Total: $1.1038
     
-2025-08-03 22:45:54,308 - INFO - 
-    API Call: Question Answering
-    - Input Tokens: 17
-    - Output Tokens: 399
-    - PDFs: 0
-    - Cache Tokens: 0
-    - Cache Hours: 0
-    - Cost: $0.0006
-    - Running Total: $0.2960
-    
-2025-08-03 22:50:50,622 - INFO - 
-    API Call: Cache Creation
-    - Input Tokens: 76,570
+
+   ##########################################################################
+   ########################################################################## 
+   ##########################################################################
+   ########################################################################## 
+   ##########################################################################
+   ##########################################################################       
+2025-08-05 15:35:09,388 - INFO - Creating new global cache
+2025-08-05 15:35:16,127 - INFO - 
+    API Call: Global Cache Creation
+    - Input Tokens: 5,547,841
     - Output Tokens: 0
     - PDFs: 1
-    - Cache Tokens: 76,570
-    - Cache Hours: 0.16666666666666666
-    - Cost: $0.2954
-    - Running Total: $0.2954
+    - Cache Tokens: 5,547,841
+    - Cache Hours: 24
+    - Cost: $1.5502
+    - Running Total: $1.5502
     
-2025-08-03 22:51:04,522 - INFO - 
+2025-08-05 15:39:23,026 - INFO - Using existing global cache: cachedContents/jksn7ku0h49pxul3bpl95r030pkzmjpovif0owl8
+2025-08-05 15:39:33,030 - INFO - Using existing global cache: cachedContents/jksn7ku0h49pxul3bpl95r030pkzmjpovif0owl8
+2025-08-05 15:50:11,426 - INFO - Using existing global cache: cachedContents/jksn7ku0h49pxul3bpl95r030pkzmjpovif0owl8
+2025-08-05 15:54:40,665 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 15:54:41,116 - INFO - Using existing global cache: cachedContents/jksn7ku0h49pxul3bpl95r030pkzmjpovif0owl8
+2025-08-05 15:54:41,221 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 16:19:46,645 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 16:19:48,295 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 16:20:21,387 - INFO - 
     API Call: Question Answering
-    - Input Tokens: 92
-    - Output Tokens: 188
-    - PDFs: 0
-    - Cache Tokens: 0
+    - Operation Type: query
+    - Input Tokens: 93
+    - Output Tokens: 320
     - Cache Hours: 0
-    - Cost: $0.0003
-    - Running Total: $0.2957
+    - Cost: $0.014615
+    - Running Total: $0.014615
     
-2025-08-03 22:51:48,556 - INFO - 
+2025-08-05 16:20:21,556 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 16:21:04,690 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 16:21:11,014 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 16:21:11,215 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 16:21:40,278 - INFO - 
     API Call: Question Answering
-    - Input Tokens: 293
-    - Output Tokens: 924
-    - PDFs: 0
-    - Cache Tokens: 0
+    - Operation Type: query
+    - Input Tokens: 97
+    - Output Tokens: 190
     - Cache Hours: 0
-    - Cost: $0.0015
-    - Running Total: $0.2972
+    - Cost: $0.014577
+    - Running Total: $0.029192
     
+2025-08-05 16:21:40,433 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 16:22:42,590 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 16:22:43,060 - INFO - Using existing global cache: cachedContents/jksn7ku0h49pxul3bpl95r030pkzmjpovif0owl8
+2025-08-05 16:22:43,170 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 16:23:20,525 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 16:23:20,978 - INFO - Using existing global cache: cachedContents/jksn7ku0h49pxul3bpl95r030pkzmjpovif0owl8
+2025-08-05 16:23:21,077 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 19:51:30,595 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 19:51:31,255 - INFO - Using existing global cache: cachedContents/jksn7ku0h49pxul3bpl95r030pkzmjpovif0owl8
+2025-08-05 19:51:31,490 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 19:51:39,705 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 19:51:40,235 - INFO - Using existing global cache: cachedContents/jksn7ku0h49pxul3bpl95r030pkzmjpovif0owl8
+2025-08-05 19:51:40,350 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 19:51:53,651 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 19:51:54,125 - INFO - Using existing global cache: cachedContents/jksn7ku0h49pxul3bpl95r030pkzmjpovif0owl8
+2025-08-05 19:51:54,236 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 19:54:19,569 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 19:54:21,076 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 19:55:04,799 - INFO - 
+    API Call: Question Answering
+    - Operation Type: query
+    - Input Tokens: 96
+    - Output Tokens: 1,543
+    - Cache Hours: 0
+    - Cost: $0.014983
+    - Running Total: $0.014983
+    
+2025-08-05 19:55:05,298 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 19:55:54,328 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 19:56:05,265 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 19:56:42,649 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 19:57:19,384 - INFO - 
+    API Call: Question Answering
+    - Operation Type: query
+    - Input Tokens: 100
+    - Output Tokens: 1,829
+    - Cache Hours: 0
+    - Cost: $0.015069
+    - Running Total: $0.030051
+    
+2025-08-05 19:57:19,597 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 19:57:42,125 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 19:57:42,798 - INFO - Using existing global cache: cachedContents/jksn7ku0h49pxul3bpl95r030pkzmjpovif0owl8
+2025-08-05 19:57:42,982 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 19:59:46,435 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 20:00:31,655 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 20:00:33,903 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 20:01:03,561 - INFO - 
+    API Call: Question Answering
+    - Operation Type: query
+    - Input Tokens: 88
+    - Output Tokens: 624
+    - Cache Hours: 0
+    - Cost: $0.014706
+    - Running Total: $0.044758
+    
+2025-08-05 20:01:03,760 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 20:02:28,146 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 21:29:29,925 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 21:29:30,382 - INFO - Using existing global cache: cachedContents/jksn7ku0h49pxul3bpl95r030pkzmjpovif0owl8
+2025-08-05 21:29:30,496 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 21:29:37,574 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 21:29:37,813 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 21:30:13,191 - INFO - 
+    API Call: Question Answering
+    - Operation Type: query
+    - Input Tokens: 89
+    - Output Tokens: 449
+    - Cache Hours: 0
+    - Cost: $0.014654
+    - Running Total: $0.014654
+    
+2025-08-05 21:30:13,286 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 21:30:43,874 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 21:30:44,346 - INFO - Using existing global cache: cachedContents/jksn7ku0h49pxul3bpl95r030pkzmjpovif0owl8
+2025-08-05 21:30:44,458 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 22:01:06,899 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 22:01:07,382 - INFO - Using existing global cache: cachedContents/jksn7ku0h49pxul3bpl95r030pkzmjpovif0owl8
+2025-08-05 22:01:07,497 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 22:01:41,538 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 22:01:42,008 - INFO - Using existing global cache: cachedContents/jksn7ku0h49pxul3bpl95r030pkzmjpovif0owl8
+2025-08-05 22:01:42,114 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 22:11:56,174 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 22:11:56,809 - INFO - Using existing global cache: cachedContents/jksn7ku0h49pxul3bpl95r030pkzmjpovif0owl8
+2025-08-05 22:11:56,905 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 22:12:09,117 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 22:12:10,832 - INFO - Cost analysis written to cost_analysis.txt
+2025-08-05 22:12:50,669 - INFO - 
+    API Call: Question Answering
+    - Operation Type: query
+    - Input Tokens: 87
+    - Output Tokens: 654
+    - Cache Hours: 0
+    - Cost: $0.014715
+    - Running Total: $0.014715
+    
+2025-08-05 22:12:50,767 - INFO - Cost analysis written to cost_analysis.txt

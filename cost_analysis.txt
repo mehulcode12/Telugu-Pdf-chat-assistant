@@ -1,0 +1,56 @@
+
+=== GEMINI API COST ANALYSIS FOR 300-PAGE PDF ===
+Generated: 2025-08-05 22:12:50
+
+COST BREAKDOWN:
+• Initial Upload: $0.05805 (one-time)
+• Storage: $0.00725625/hour ($0.17415/day)
+• Per Query: $0.0145125 (cached) + input/output costs
+
+DAILY COST ESTIMATES (10 queries per user):
+
+Users: 10
+- Total Queries: 100
+- Storage Cost: $0.17415
+- Query Cost: $1.46
+- Total Daily: $1.64
+- Cost/User: $0.1635
+
+Users: 20
+- Total Queries: 200
+- Storage Cost: $0.17415
+- Query Cost: $2.92
+- Total Daily: $3.10
+- Cost/User: $0.1548
+
+Users: 50
+- Total Queries: 500
+- Storage Cost: $0.17415
+- Query Cost: $7.30
+- Total Daily: $7.48
+- Cost/User: $0.1496
+
+Users: 70
+- Total Queries: 700
+- Storage Cost: $0.17415
+- Query Cost: $10.23
+- Total Daily: $10.40
+- Cost/User: $0.1486
+
+Users: 100
+- Total Queries: 1000
+- Storage Cost: $0.17415
+- Query Cost: $14.61
+- Total Daily: $14.78
+- Cost/User: $0.1478
+
+COST EFFICIENCY INSIGHTS:
+• Higher user counts reduce per-user cost due to shared storage
+• 100 users: ~$0.1478 per user per day
+• 10 users: ~$0.1619 per user per day
+• Global caching saves ~96% compared to individual caches
+
+STORAGE SHARING BENEFITS:
+• Fixed storage cost ($0.17415/day) shared across all users
+• More users = lower per-user storage cost
+• Economies of scale with global caching
