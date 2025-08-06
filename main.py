@@ -256,11 +256,12 @@ def get_or_create_global_cache():
             return cache
         except Exception as e:
             logger.error(f"Error retrieving cache {cache_name}: {e}")
-            # Fall through to create new cache
+            # Don't create new cache automatically - return None
+            return None
     
-    # Create new global cache
-    logger.info("Creating new global cache")
-    return create_global_pdf_cache()
+    # Don't create new global cache automatically - return None
+    logger.info("Global cache expired or invalid - manual creation required")
+    return None
 
 def get_token_count(text):
     """Get accurate token count using Gemini API"""
@@ -540,7 +541,7 @@ if not st.session_state.session_started:
         with col2:
             if st.button("🚀 Start Session", type="primary", use_container_width=True):
                 with st.spinner("⏳ Loading document and creating global cache..."):
-                    st.session_state.global_pdf_cache = get_or_create_global_cache()
+                    st.session_state.global_pdf_cache = create_global_pdf_cache()
                     if st.session_state.global_pdf_cache:
                         st.session_state.session_started = True
                         st.rerun()
@@ -548,12 +549,9 @@ else:
     # Check if global cache is still valid
     is_valid, _ = is_global_cache_valid()
     if not is_valid:
-        st.warning("⚠️ Global cache expired or invalid. Refreshing...")
-        with st.spinner("⏳ Refreshing global cache..."):
-            st.session_state.global_pdf_cache = get_or_create_global_cache()
-            if not st.session_state.global_pdf_cache:
-                st.session_state.session_started = False
-                st.rerun()
+        st.warning("⚠️ Global cache expired or invalid. Please restart the session to create a new cache.")
+        st.session_state.session_started = False
+        st.rerun()
 
 # Chat Interface
 if st.session_state.session_started and st.session_state.global_pdf_cache:
